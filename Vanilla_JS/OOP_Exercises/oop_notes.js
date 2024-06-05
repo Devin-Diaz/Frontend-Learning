@@ -39,3 +39,35 @@ const employee = {
    to errors if one is potentially changed. Encapsulation allows us to avoid that since we are 
    using properties of that same object for their functions. 
 */
+
+//--------------------------------------------------------------------------------------------
+
+/*
+    Abstraction, think of a old dvd player as an object. On the inside it has a complex logic board,
+    but on the outside there is simple buttons such as play or pause. All that complexity is hidden
+    from the user. That is abstraction. In programming, this consists of making objects with a simple
+    interface, and functions that reduce the impact of change on the outside. 
+*/
+
+/*
+    Inheritance is a mechanism that allows you to elinate redunant code. For example, think of html
+    elements, TextBox, Select, CheckBox. All these elements have the following properties and functions,
+    hidden innerHTML, click(), and focus(). All these can be defined in 1 object, than all these other
+    elements can inherit these properties and functions.
+*/
+
+/*
+    Polymorphism - Poly means many, morphism means forms. Many different forms. Take the html elements from
+    above and there properties and functions. Although on the surface they appear the same, when used on a
+    different html element, they are rendered differently. The property or method will act different depending
+    on which 'form' or object it takes on. 
+*/
+
+/*
+    Summary:
+
+    Encapsulation - Reduce complexity + increase reusability
+    Abstraction - Reduce complexity + isolate impact of changes
+    Inheritance - Eliminate redundant code
+    Polymorphism - Refactor ugly switch/case statements
+*/
