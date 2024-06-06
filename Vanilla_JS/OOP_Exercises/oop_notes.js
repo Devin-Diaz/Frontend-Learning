@@ -47,6 +47,12 @@ const employee = {
     but on the outside there is simple buttons such as play or pause. All that complexity is hidden
     from the user. That is abstraction. In programming, this consists of making objects with a simple
     interface, and functions that reduce the impact of change on the outside. 
+
+    In JS, how make fields or functions private within an object, we simply give them local scope.
+    Thus we cannot access them from the outside, yet we cam still do computations with them within
+    the object we are working with. 
+
+    For every field or function that we want to be public we use the this keyword for it. 
 */
 
 /*
